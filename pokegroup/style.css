@@ -1,0 +1,45 @@
+nav {
+  position: fixed;
+  width: 0px;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 85%);
+  transition: 1s;
+}
+
+.nav_active {
+  width: 116px;
+  transition: 1s;
+}
+.nav_active svg {
+  transition: 1s;
+  position: absolute;
+  right: -71px;
+}
+.nav_active .slots {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  transition: 1s;
+}
+.nav_active .slots div {
+  border-radius: 12px;
+  width: 66px;
+  height: 66px;
+  background-color: white;
+  border: hsl(0deg, 100%, 36%) solid 3px;
+  transition: 2.5s;
+}
+
+.svg-active {
+  transition: 1s;
+  position: absolute;
+  right: -71px;
+  rotate: 90deg;
+}
+
+/*# sourceMappingURL=style.css.map */
