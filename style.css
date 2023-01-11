@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.pokemon_area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.pokemon_area div {
+  width: 60px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: black 0px 0px 10px;
+}
+.pokemon_area div h2 {
+  font-size: 0.7rem;
+}
+.pokemon_area div img {
+  width: 80px;
+  height: 80px;
+}
+
+/*# sourceMappingURL=Style.css.map */
